@@ -5,7 +5,7 @@
   left: 0;
   background-size: cover;}
 
-  .container {
+  .containers {
     position: absolute;
     top: 0;
     left: 0;
@@ -20,6 +20,12 @@
     height: 100%;
     background: url(../images/clouds.png);
     animation: animate 50s linear  infinite;
+  }
+
+  .title{
+    /* font-size: 280%; */
+    font-family: 'Cormorant Upright', serif;
+    color: white;
   }
 
 @keyframes animate {
