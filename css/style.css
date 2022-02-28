@@ -26,12 +26,16 @@ body {
   left:0;
   position: absolute;
   right: 0;
+  margin-top:13%;
+
+
 }
 .logoimg{
   text-align: center;
   width: 40%;
   top:20;
   border-radius: 1.00rem;
+
 }
 
 .clouds {
@@ -44,6 +48,21 @@ body {
   background: url(../images/clouds.png);
   animation: animate 120s linear infinite;
 }
+
+@media (max-width:481px)
+ {
+   .logoimg{
+     text-align: center;
+     width: 50%;
+     top:10;
+     border-radius: 0.5rem;
+     margin-top:1%;
+   }
+   .logoimage{
+    margin-top:12%;
+    margin-left: 5%
+   }
+ }
 
 
 
