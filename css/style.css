@@ -57,8 +57,8 @@ body {
 
 }
 
-@media (min-width:481px)
- {
+@media (max-width: 481px) {
+ 
    .logoimg{
      text-align: center;
      width: 60%;
