@@ -14,6 +14,9 @@ body {
   margin-top: 2%;
   border: 4px solid #FFC0D3;
 } */
+.top-section{
+  position: relative;
+}
 .mountains {
   position: absolute;
   top: 0;
@@ -49,6 +52,11 @@ body {
   animation: animate 120s linear infinite;
 }
 
+.header{
+  position: relative;
+
+}
+
 @media (max-width:481px)
  {
    .logoimg{
@@ -61,6 +69,9 @@ body {
    .logoimage{
     margin-top:8%;
     margin-left: 3%
+   }
+   .header{
+     color: red;
    }
  }
 
