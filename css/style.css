@@ -57,7 +57,7 @@ body {
 
 }
 
-@media (max-width:481px)
+@media (min-width:481px)
  {
    .logoimg{
      text-align: center;
