@@ -58,10 +58,10 @@ body {
 }
 
 @media (max-width: 481px) {
- 
+
    .logoimg{
      text-align: center;
-     width: 60%;
+     width: 50%;
      top:10;
      border-radius: 0.5rem;
      margin-top:1%;
@@ -70,9 +70,7 @@ body {
     margin-top:8%;
     margin-left: 3%
    }
-   .header{
-     color: red;
-   }
+
  }
 
 
