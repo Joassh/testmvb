@@ -18,7 +18,7 @@ body {
   position: relative;
 }
 .mountains {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   background-size: cover;
@@ -53,11 +53,19 @@ body {
   animation: animate 120s linear infinite;
 }
 
-.header{
+
+
+.belowheader{
   position: relative;
+}
+.heading{
+  font-family: 'Spectral', serif;
+  font-size: 40px;
+  margin-top: 2%;
+  /* color: #EEEDDE; */
+  color: #D0E8F2;
 
 }
-
 @media (max-width: 500px) {
 
    .logoimg{
@@ -72,9 +80,8 @@ body {
     margin-top:8%;
     margin-left: 2%
    }
-   h1{
-     color: red;
-   }
+
+
 
  }
 
