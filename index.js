@@ -16,7 +16,7 @@ $(document).ready(function() {
   });
 });
 var width1 = window.innerWidth;
-if(width1>490){
+if(width1<992){
   $(".subnavbar").addClass("black");
 
 }
