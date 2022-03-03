@@ -2,12 +2,21 @@
 html,body {
 
   overflow-x: hidden;
-  color: white;
 }
 
 /* NavBar */
+.navbaralter{
+  background-color: transparent  !important;
+  color: white !important;
+}
 
-
+.navbaralter.scrolled {
+background-color: black !important;
+transition: background-color 200ms linear;
+}
+.alternavbar.black{
+  background-color: black !important;
+}
 
 /* Mountain+Logo */
 .top-section{

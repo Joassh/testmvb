@@ -10,14 +10,14 @@
     $(document).ready(function() {
       $(document).scroll(function () {
         var $nav1 = $(".head1");
-    var $nav = $(".navbar-fixed-top");
+        var $nav = $(".navbar-fixed-top");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav1.height());
   });
     });
   </script>
   <link rel="stylesheet" href="css/bootstrap.css">
   <style media="screen">
-    .navbar-fixed-top.scrolled {
+    .navbaralter.scrolled {
   background-color: black !important;
   transition: background-color 200ms linear;
 }
