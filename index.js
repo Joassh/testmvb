@@ -12,11 +12,11 @@ $(document).ready(function() {
     var $nav = $(".navbaralter");
     var $nav2 = $(".subnavbar");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav1.height());
+
   });
 });
 var width1 = window.innerWidth;
 if(width1>490){
-  alert(width1);
-  $(".subnavbar").addClass(".black");
+  $(".subnavbar").addClass("black");
 
 }
