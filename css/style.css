@@ -2,6 +2,9 @@
 html,body {
 
   overflow-x: hidden;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+
 }
 
 /* NavBar */
@@ -70,14 +73,19 @@ transition: background-color 200ms linear;
 
 .features {
   position: relative;
-  padding: 2% 2% 8% 2%;
-  background:  #203239;
+  padding: 2% 2% 5% 2%;
+  /* background:  #203239; */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,12,128,1) 58%, rgba(53,11,107,1) 99%);
   overflow: visible;
   z-index: 1;
 }
 
 .featuresheading{
-  color: white;
+  color: #FFF9F9;
+font-family: 'Merriweather', serif;font-style: normal;
+font-weight: 600;
+font-size: 1.7rem;
 }
 
 /* where the magic happens */
@@ -90,12 +98,14 @@ transition: background-color 200ms linear;
   z-index: -1;
   bottom: 0;
   transform-origin: left bottom;
-  transform: skewY(3deg);
+  transform: skewY(2deg);
 }
 
 .card{
-  border-radius: 5%;
-  margin:5% 1%;
+
+  margin:5% 4%;
+  background: #F5F5F5;
+  border-radius:2rem;
   }
 
 
