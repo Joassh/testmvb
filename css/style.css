@@ -25,7 +25,8 @@ html, body {
   top: 0;
   left: 0;
   width: 100%;
-  height:100vh;
+  min-height:100vh;
+  max-height: 999px;
   background-size: cover;
   align-items: center;
   background-position: 50%;
@@ -37,7 +38,7 @@ html, body {
   position: absolute;
   right: 0;
   align-items:center;
-  margin-top: 10%;
+  margin-top:10%;
   margin-left: 8%;
   text-align: center;
   display: block;
@@ -47,8 +48,11 @@ html, body {
   width: 40%;
   border-radius: 1.00rem;
 }
+
 .jhbtext{
-  margin-top: 8%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
 }
 .clouds {
@@ -117,7 +121,7 @@ html, body {
     margin-top: 1%;
   }
   .logoimage {
-    margin-top: 30%;
+    margin-top: 40%;
     margin-left: 2%;
   }
   .jhbtext{
