@@ -37,7 +37,7 @@ html, body {
   position: absolute;
   right: 0;
   align-items:center;
-  margin-top: 13%;
+  margin-top: 10%;
   margin-left: 8%;
   text-align: center;
   display: block;
@@ -46,6 +46,10 @@ html, body {
   text-align: center;
   width: 40%;
   border-radius: 1.00rem;
+}
+.jhbtext{
+  margin-top: 8%;
+
 }
 .clouds {
   position: absolute;
@@ -113,9 +117,14 @@ html, body {
     margin-top: 1%;
   }
   .logoimage {
-    margin-top: 48%;
+    margin-top: 30%;
     margin-left: 2%;
   }
+  .jhbtext{
+    margin-top: 20%;
+
+  }
+
 }
 @keyframes animate {
   0% {
