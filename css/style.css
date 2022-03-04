@@ -68,7 +68,8 @@ html, body {
   padding: 2% 2% 5% 2%;
   /* background:  #203239; */
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(120, 12, 128, 1) 58%, rgba(53, 11, 107, 1) 99%);
+  /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(120, 12, 128, 1) 58%, rgba(53, 11, 107, 1) 99%); */
+  background: linear-gradient(to right,#0f2027 0%,#203a43 60%,#2c5364 99%);
   overflow: visible;
   z-index: 1;
 }
