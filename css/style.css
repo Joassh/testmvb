@@ -117,15 +117,6 @@ html, body {
   border-width:2px;
 
 }
-.mailtolink{
-  text-decoration: none;
-  color: white;
-  margin-top: 20px;
-  
-}
-.mailtolink:hover{
-	color:white;
-}
 .contactimg{
 	margin-left: 7px;
 	width:12%;
