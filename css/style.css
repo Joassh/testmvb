@@ -130,6 +130,9 @@ html, body {
 	margin-left: 7px;
 	width:12%;
 }
+.contactussocial a{
+	color:black;
+}
 @media (max-width: 500px) {
   .logoimg {
     text-align: center;
