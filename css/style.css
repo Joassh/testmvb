@@ -121,6 +121,10 @@ html, body {
   text-decoration: none;
   color: white;
   margin-top: 20px;
+  
+}
+.mailtolink:hover{
+	color:white;
 }
 @media (max-width: 500px) {
   .logoimg {
