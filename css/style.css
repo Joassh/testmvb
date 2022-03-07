@@ -126,6 +126,10 @@ html, body {
 .mailtolink:hover{
 	color:white;
 }
+.contactimg{
+	margin-left: 7px;
+	width:12%;
+}
 @media (max-width: 500px) {
   .logoimg {
     text-align: center;
