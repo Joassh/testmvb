@@ -1,0 +1,52 @@
+body,html{
+  background-color: black;
+  overflow-x: hidden;
+}
+.main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border: black solid 3px;
+}
+.mountains{
+  background-image: url(../images/mountain.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99vh;
+  background-position:10%;
+  background-size: cover;
+}
+
+.clouds{
+  position: absolute;
+  background-image: url('../images/clouds.png');
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  animation: cloudsanimate linear infinite 120s;
+}
+.logo{
+  max-width: 50%;
+  margin: 0;
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   border-radius: 10px;
+}
+
+
+
+@keyframes cloudsanimate {
+  0%{
+    background-position: 0px;
+  }
+  100%{
+    background-position: 4000px;
+  }
+}
