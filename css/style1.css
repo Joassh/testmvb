@@ -8,10 +8,16 @@ body,html{
   background-color: transparent !important;
   color: white;
 }
+.navmain{
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+}
 .altarnavbar{
-  background: gray;
+  background: black;
   padding: 2% 5%;
-  color: black;
+
+
 
 }
 .main{
@@ -72,4 +78,23 @@ body,html{
   100%{
     background-position: 4000px;
   }
+}
+
+@media (min-width:992px) {
+  .logo{
+    max-width: 35%;
+  }
+  .logoheading{
+    font-size: 1.3rem;
+  }
+
+.altarnavbar{
+  background:  transparent !important;
+  justify-content: end;
+
+}
+.navmain{
+  padding-left:55px;
+  padding-right: 25px;
+}
 }
