@@ -4,6 +4,16 @@ body,html{
   font-family: 'Merriweather', serif;
   font-style: normal;
 }
+.navbar{
+  background-color: transparent !important;
+  color: white;
+}
+.altarnavbar{
+  background: gray;
+  padding: 2% 5%;
+  color: black;
+
+}
 .main{
   position: relative;
   width: 100%;
@@ -50,8 +60,8 @@ body,html{
   font-size: 1rem;
   transform: translate(-50%);
   border:2px solid white;
-  padding: 6px;
-  border-radius: 8px;
+  padding: 4px;
+  border-radius: 8px
 }
 
 
