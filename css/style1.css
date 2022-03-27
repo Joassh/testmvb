@@ -71,7 +71,9 @@ body,html{
   padding: 4px;
   border-radius: 8px
 }
-
+.content{
+  background-image: linear-gradient(to right, #051937, #002844, #00374c, #004551, #085353);
+}
 
 @keyframes cloudsanimate {
   0%{
